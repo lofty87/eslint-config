@@ -1,6 +1,6 @@
 # eslint-config-lofty87
 
-It can be applied to projects using typescript, eslint and prettier.
+It can be applied to projects using typescript, eslint and prettier in vscode.
 
 after pressing `F11`, you can be formatting it through save.
 
@@ -75,9 +75,11 @@ go to vscode user `settings.json` and include json below
 }
 ```
 
-go to vscode *File-Preferences-Keyboard Shortcuts*, change the **Format Document** value to `F11`.
+go to vscode *File-Preferences-Keyboard Shortcuts*,
 
-now you can prettier format through `F11`
+change the **Format Document** value to `F11`.
+
+now, you can be prettier formatting it through `F11`
 
 #### 2. eslint
 
@@ -112,7 +114,7 @@ go to vscode user `settings.json` and include json below
 }
 ```
 
-now you can eslint linting and format by saving
+now, you can be eslint linting and can be formatting it by saving
 
 ## 5. Namespaces
 
