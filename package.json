@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lofty87",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint config on typescript, prettier",
   "author": {
     "name": "lofty87",
