@@ -1,12 +1,14 @@
 # eslint-config-lofty87
 
-It can be applied to projects using typescript, eslint and prettier. after pressing `F11`, you can format it through save.
+It can be applied to projects using typescript, eslint and prettier.
+
+after pressing `F11`, you can be formatting it through save.
 
 ## 1. Prerequisite
 
-- typescript(>=3.6), tsconfig.json
+- typescript(>=3.6, tsconfig.json)
 - eslint(>=7.3)
-- prettier(vscode plugin: Prettier - Code formatter)
+- vscode plugin(ESLint, Prettier - Code formatter)
 
 ## 2. Dependencies
 
@@ -18,7 +20,7 @@ It can be applied to projects using typescript, eslint and prettier. after press
 
 ## 3. Installation
 
-Using npm:
+**Using npm:**
 
 ```bash
 npm install --save eslint-config-lofty87
@@ -73,7 +75,9 @@ go to vscode user `settings.json` and include json below
 }
 ```
 
-go to vscode [File-Preferences-Keyboard Shortcuts], change the <u>Format Document</u> value to **F11**. now you can prettier format through `F11`
+go to vscode *File-Preferences-Keyboard Shortcuts*, change the **Format Document** value to `F11`.
+
+now you can prettier format through `F11`
 
 #### 2. eslint
 
