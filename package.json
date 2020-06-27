@@ -1,12 +1,19 @@
 {
   "name": "eslint-config-lofty87",
   "version": "1.0.0",
-  "description": "eslint config on typescript(3.9.4), prettier",
-  "author": "lofty87",
+  "description": "eslint config on typescript, prettier",
+  "author": {
+    "name": "lofty87",
+    "email": "lofty87@daum.net"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/lofty87/eslint-config",
+  "bugs": {
+    "url": "https://github.com/lofty87/eslint-config/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lofty87/eslint-config"
+    "url": "git+https://github.com/lofty87/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -15,6 +22,9 @@
     "prettier"
   ],
   "peerDependencies": {
+    "typescript": ">=3.6"
+  },
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
     "eslint": "^7.3.1",
