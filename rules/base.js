@@ -219,6 +219,7 @@ module.exports = {
     "yield-star-spacing": ["error", "after"],
     "import/default": "error",
     "import/export": "error",
+    "import/extensions": "off",
     "import/first": "error",
     "import/named": "error",
     "import/newline-after-import": "error",
@@ -233,7 +234,6 @@ module.exports = {
     }],
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/await-thenable": "error",
-    "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/explicit-member-accessibility": ["error", {
       "accessibility": "explicit",
       "overrides": {
