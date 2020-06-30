@@ -235,6 +235,7 @@ module.exports = {
     "import/order": ["error", {
       "newlines-between": "always"
     }],
+    "import/prefer-default-export": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/await-thenable": "error",
     "@typescript-eslint/explicit-member-accessibility": ["error", {
