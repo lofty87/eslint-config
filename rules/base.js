@@ -110,6 +110,9 @@ module.exports = {
     "no-multi-spaces": "error",
     "no-multi-str": "error",
     "no-new-func": "error",
+    "no-param-reassign": ["error", {
+      "props": false
+    }],
     "no-redeclare": "error",
     "no-return-assign": ["error", "always"],
     "no-self-assign": ["error", {
