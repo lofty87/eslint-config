@@ -227,6 +227,7 @@ module.exports = {
     "import/named": "error",
     "import/newline-after-import": "error",
     "import/no-absolute-path": "error",
+    "import/no-cycle": "off",
     "import/no-duplicates": "error",
     "import/no-mutable-exports": "error",
     "import/no-named-as-default": "error",
