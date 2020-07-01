@@ -68,6 +68,7 @@ module.exports = {
       }
     }],
     "linebreak-style": ["error", "unix"],
+    "max-classes-per-file": "off",
     "max-nested-callbacks": ["error", 5],
     "multiline-ternary": ["error", "always-multiline"],
     "new-cap": ["error", {
@@ -110,9 +111,7 @@ module.exports = {
     "no-multi-spaces": "error",
     "no-multi-str": "error",
     "no-new-func": "error",
-    "no-param-reassign": ["error", {
-      "props": false
-    }],
+    "no-param-reassign": "off",
     "no-redeclare": "error",
     "no-return-assign": ["error", "always"],
     "no-self-assign": ["error", {
