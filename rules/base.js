@@ -114,6 +114,7 @@ module.exports = {
     "no-param-reassign": "off",
     "no-redeclare": "error",
     "no-return-assign": ["error", "always"],
+    "no-return-await": "off",
     "no-self-assign": ["error", {
       "props": false
     }],
@@ -261,6 +262,7 @@ module.exports = {
       "allowConstantLoopConditions": true
     }],
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
+    "@typescript-eslint/no-unused-expressions": "off",
     "@typescript-eslint/restrict-plus-operands": "error",
     "@typescript-eslint/type-annotation-spacing": ["error", {
       "before": false,
