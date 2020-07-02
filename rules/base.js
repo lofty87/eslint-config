@@ -136,6 +136,7 @@ module.exports = {
     "no-unsafe-negation": "error",
     "no-use-before-define": "error",
     "no-useless-concat": "error",
+    "no-useless-escape": "off",
     "no-useless-rename": "error",
     "no-var": "error",
     "no-whitespace-before-property": "error",
