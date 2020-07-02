@@ -126,6 +126,7 @@ module.exports = {
     "no-trailing-spaces": ["error", {
       "ignoreComments": true
     }],
+    "no-underscore-dangle": "off",
     "no-unexpected-multiline": "error",
     "no-unmodified-loop-condition": "error",
     "no-unneeded-ternary": ["error", {
