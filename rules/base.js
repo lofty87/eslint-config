@@ -112,6 +112,7 @@ module.exports = {
     "no-multi-str": "error",
     "no-new-func": "error",
     "no-param-reassign": "off",
+    "no-plusplus": "off",
     "no-redeclare": "error",
     "no-return-assign": ["error", "always"],
     "no-return-await": "off",
