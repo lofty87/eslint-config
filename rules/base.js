@@ -266,6 +266,7 @@ module.exports = {
     }],
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/restrict-plus-operands": "error",
     "@typescript-eslint/type-annotation-spacing": ["error", {
       "before": false,
