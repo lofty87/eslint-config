@@ -83,6 +83,7 @@ module.exports = {
     "no-class-assign": "error",
     "no-cond-assign": ["error", "always"],
     "no-confusing-arrow": "error",
+    "no-console": "off",
     "no-const-assign": "error",
     "no-constant-condition": ["error", {
       "checkLoops": false
@@ -256,6 +257,7 @@ module.exports = {
     "@typescript-eslint/member-ordering": ["error", {
       "default": ["field", "constructor", "method"]
     }],
+    "@typescript-eslint/naming-convention": "off",
     "@typescript-eslint/no-inferrable-types": "error",
     "@typescript-eslint/no-misused-promises": ["error", {
       "checksConditionals": true,
@@ -266,7 +268,6 @@ module.exports = {
     }],
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/no-unused-expressions": "off",
-    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/restrict-plus-operands": "error",
     "@typescript-eslint/type-annotation-spacing": ["error", {
       "before": false,
