@@ -54,7 +54,6 @@ module.exports = {
       "shorthandLast": true,
       "reservedFirst": true
     }],
-    "react/jsx-space-before-closing": [2, "always"],
     "react/jsx-tag-spacing": [2, {
       "closingSlash": "never",
       "beforeSelfClosing": "always",
@@ -84,7 +83,6 @@ module.exports = {
     "react/no-will-update-set-state": "error",
     "react/prefer-es6-class": "error",
     "react/prefer-stateless-function": "error",
-    "react/prop-types": "error",
     "react/react-in-jsx-scope": "error",
     "react/require-render-return": "error",
     "react/self-closing-comp": ["error", {
