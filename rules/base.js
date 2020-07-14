@@ -70,7 +70,7 @@ module.exports = {
     "linebreak-style": ["error", "unix"],
     "max-classes-per-file": "off",
     "max-nested-callbacks": ["error", 5],
-    "multiline-ternary": ["error", "always-multiline"],
+    "multiline-ternary": ["error", "never"],
     "new-cap": ["error", {
       "newIsCap": true,
       "capIsNew": false,
