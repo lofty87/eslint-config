@@ -2,6 +2,7 @@ module.exports = {
   "rules": {
     "jsx-quotes": ["error", "prefer-double"],
     "no-alert": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "react/button-has-type": "error",
     "react/default-props-match-prop-types": "error",
     "react/destructuring-assignment": "error",
