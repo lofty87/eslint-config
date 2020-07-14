@@ -9,8 +9,8 @@ module.exports = {
       "namedComponents": "arrow-function",
       "unnamedComponents": "arrow-function"
     }],
-    "react/jsx-boolean-value": ["never"],
-    "react/jsx-closing-bracket-location": [2, 'line-aligned'],
+    "react/jsx-boolean-value": [2, "never"],
+    "react/jsx-closing-bracket-location": [2, "line-aligned"],
     "react/jsx-closing-tag-location": "error",
     "react/jsx-curly-brace-presence": [2, {
       "props": "never",
