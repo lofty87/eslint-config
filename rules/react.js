@@ -83,6 +83,7 @@ module.exports = {
     "react/no-will-update-set-state": "error",
     "react/prefer-es6-class": "error",
     "react/prefer-stateless-function": "error",
+    "react/prop-types": "off",
     "react/react-in-jsx-scope": "error",
     "react/require-render-return": "error",
     "react/self-closing-comp": ["error", {
