@@ -93,9 +93,7 @@ module.exports = {
     }],
     "react/sort-prop-types": [2, {
       "ignoreCase": true,
-      "callbacksLast": true,
-      "shorthandLast": true,
-      "reservedFirst": true
+      "callbacksLast": true
     }],
     "react/state-in-constructor": [2, "never"],
     "react/style-prop-object": "error",
