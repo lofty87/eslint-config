@@ -243,6 +243,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/dot-notation": "off",
     "@typescript-eslint/explicit-member-accessibility": ["error", {
       "accessibility": "explicit",
       "overrides": {
