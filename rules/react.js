@@ -79,7 +79,7 @@ module.exports = {
     "react/no-string-refs": "error",
     "react/no-this-in-sfc": "error",
     "react/no-typos": "error",
-    "react/no-unescaped-entities": "error",
+    "react/no-unescaped-entities": "off",
     "react/no-unknown-property": "error",
     "react/no-will-update-set-state": "error",
     "react/prefer-es6-class": "error",
