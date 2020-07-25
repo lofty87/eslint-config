@@ -50,10 +50,11 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/jsx-sort-default-props": "error",
     "react/jsx-sort-props": ["error", {
-      "ignoreCase": true,
       "callbacksLast": true,
-      "shorthandLast": true,
-      "reservedFirst": true
+      "ignoreCase": true,
+      "noSortAlphabetically": true,
+      "reservedFirst": true,
+      "shorthandLast": true
     }],
     "react/jsx-tag-spacing": [2, {
       "closingSlash": "never",
