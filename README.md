@@ -53,7 +53,7 @@ create `.prettierrc` in project root and copy json below
 ```json
 {
   "singleQuote": true,
-  "printWidth": 100,
+  "printWidth": 160,
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,
