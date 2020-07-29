@@ -39,6 +39,10 @@ module.exports = {
       "indentLogicalExpressions": true
     }],
     "react/jsx-key": "error",
+    "react/jsx-max-props-per-line": [2, {
+      "maximum": 1,
+      "when": "always"
+    }],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-target-blank": "error",
     "react/jsx-no-useless-fragment": "error",
