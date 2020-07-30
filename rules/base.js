@@ -93,7 +93,7 @@ module.exports = {
     }],
     "new-parens": "error",
     "newline-per-chained-call": ["error", {
-      "ignoreChainWithDepth": 1
+      "ignoreChainWithDepth": 2
     }],
     "no-class-assign": "error",
     "no-cond-assign": ["error", "always"],
