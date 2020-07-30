@@ -53,14 +53,6 @@ module.exports = {
       "VariableDeclarator": "first",
       "outerIIFEBody": "off",
       "MemberExpression": 1,
-      "FunctionDeclaration": {
-        "parameters": 1,
-        "body": 2
-      },
-      "FunctionExpression": {
-        "parameters": 1,
-        "body": 2
-      },
       "CallExpression": {
         "arguments": "first"
       },
