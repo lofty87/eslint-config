@@ -44,8 +44,31 @@ module.exports = {
       "before": false,
       "after": true
     }],
+    "function-paren-newline": ["error", "multiline-arguments"],
     "getter-return": ["error", {
       "allowImplicit": true
+    }],
+    "indent": ["error", 2, {
+      "SwitchCase": 1,
+      "VariableDeclarator": "first",
+      "outerIIFEBody": "off",
+      "MemberExpression": 1,
+      "FunctionDeclaration": {
+        "parameters": 1,
+        "body": 2
+      },
+      "FunctionExpression": {
+        "parameters": 1,
+        "body": 2
+      },
+      "CallExpression": {
+        "arguments": "first"
+      },
+      "ArrayExpression": "first",
+      "ObjectExpression": "first",
+      "ImportDeclaration": "first",
+      "flatTernaryExpressions": false,
+      "offsetTernaryExpressions": false
     }],
     "key-spacing": ["error", {
       "beforeColon": false,
@@ -78,7 +101,7 @@ module.exports = {
     }],
     "new-parens": "error",
     "newline-per-chained-call": ["error", {
-      "ignoreChainWithDepth": 5
+      "ignoreChainWithDepth": 1
     }],
     "no-class-assign": "error",
     "no-cond-assign": ["error", "always"],

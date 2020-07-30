@@ -26,18 +26,18 @@ module.exports = {
       "children": true
     }],
     "react/jsx-equals-spacing": [2, "never"],
-    "react/jsx-first-prop-new-line": [2, "multiline-multiprop"],
+    "react/jsx-first-prop-new-line": [2, "always"],
     "react/jsx-fragments": "error",
     "react/jsx-handler-names": [2, {
       "eventHandlerPrefix": "handle",
       "eventHandlerPropPrefix": "on",
       "checkLocalVariables": false
     }],
-    "react/jsx-indent-props": [2, "first"],
     "react/jsx-indent": [2, 2, {
       "checkAttributes": false,
       "indentLogicalExpressions": true
     }],
+    "react/jsx-indent-props": [2, 2],
     "react/jsx-key": "error",
     "react/jsx-max-props-per-line": [2, {
       "maximum": 1,
