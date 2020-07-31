@@ -31,6 +31,7 @@ module.exports = {
     }],
     "constructor-super": "error",
     "curly": "error",
+    "default-case": "off",
     "dot-location": ["error", "property"],
     "eqeqeq": ["error", "always"],
     "eol-last": ["error", "always"],
@@ -108,6 +109,9 @@ module.exports = {
     "no-dupe-keys": "error",
     "no-duplicate-case": "error",
     "no-duplicate-imports": "error",
+    "no-empty": ["error", {
+      "allowEmptyCatch": true
+    }],
     "no-eq-null": "error",
     "no-eval": "error",
     "no-extend-native": "error",
