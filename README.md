@@ -1,4 +1,4 @@
-# eslint-config-lofty87
+# @lofty87/eslint-config
 
 It can be applied to projects using typescript, eslint and prettier in vscode. (also, react projects)
 
@@ -35,13 +35,13 @@ After pressing `F11`, you can be formatting it through save.
 #### 1. base
 
 ```bash
-npm install --save eslint-config-lofty87
+npm install --save @lofty87/eslint-config
 ```
 
 #### 2. react
 
 ```bash
-npm install --save eslint-config-lofty87 eslint-plugin-jsx-a11y@^6.2.3 eslint-plugin-react@^7.19.0 eslint-plugin-react-hooks@^2.5.0
+npm install --save @lofty87/eslint-config eslint-plugin-jsx-a11y@^6.2.3 eslint-plugin-react@^7.19.0 eslint-plugin-react-hooks@^2.5.0
 ```
 
 ## 4. Configuration
@@ -106,7 +106,7 @@ create `.eslintrc.json` in project root and copy json below
 ```json
 {
   "extends": [
-    "eslint-config-lofty87"
+    "@lofty87/eslint-config"
   ]
 }
 ```
@@ -116,17 +116,7 @@ or
 ```json
 {
   "extends": [
-    "eslint-config-lofty87/react"
-  ]
-}
-```
-
-or you can omit the **eslint-config-** in front.
-
-```json
-{
-  "extends": [
-    "lofty87"
+    "@lofty87/eslint-config/react"
   ]
 }
 ```
@@ -146,6 +136,6 @@ now, you can be eslint linting and can be formatting it by saving
 
 ## 5. Namespaces
 
-- eslint-config-lofty87(=base)
-- eslint-config-lofty87/base
-- eslint-config-lofty87/react
+- @lofty87/eslint-config(=base)
+- @lofty87/eslint-config/base
+- @lofty87/eslint-config/react

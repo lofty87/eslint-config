@@ -1,11 +1,12 @@
 {
-  "name": "eslint-config-lofty87",
-  "version": "1.1.15",
-  "description": "custom eslint config on typescript, eslint, prettier",
+  "name": "@lofty87/eslint-config",
+  "version": "1.1.17",
+  "description": "eslint config based typescript, eslint, prettier",
   "author": {
     "name": "lofty87",
     "email": "lofty87@daum.net"
   },
+  "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/lofty87/eslint-config",
   "bugs": {
@@ -26,10 +27,10 @@
     "eslint": ">=7.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
-    "eslint-config-airbnb-typescript": "^8.0.2",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.21.2"
+    "@typescript-eslint/eslint-plugin": "~3.4.0",
+    "@typescript-eslint/parser": "~3.4.0",
+    "eslint-config-airbnb-typescript": "~8.0.2",
+    "eslint-config-prettier": "~6.11.0",
+    "eslint-plugin-import": "~2.21.2"
   }
 }
