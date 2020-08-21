@@ -1,10 +1,10 @@
 # @lofty87/eslint-config
 
-It can be applied to projects using typescript, eslint and prettier in vscode. (also, react projects)
+it can be applied to project using typescript, eslint and prettier in vscode. (also, react project)
 
-This eslint config is based on [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript).
+this eslint config is based on [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript).
 
-After pressing `F11`, you can be formatting it through save.
+after pressing `F11`, you can be formatting it through save.
 
 ## 1. Prerequisite
 
