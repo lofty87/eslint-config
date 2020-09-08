@@ -41,14 +41,15 @@ module.exports = {
       "allowArrowFunctions": true
     }],
     "function-call-argument-newline": ["error", "consistent"],
+    "function-paren-newline": ["error", "multiline-arguments"],
     "generator-star-spacing": ["error", {
       "before": false,
       "after": true
     }],
-    "function-paren-newline": ["error", "multiline-arguments"],
     "getter-return": ["error", {
       "allowImplicit": true
     }],
+    "global-require": "off",
     "indent": ["error", 2, {
       "SwitchCase": 1,
       "VariableDeclarator": "first",
@@ -252,6 +253,8 @@ module.exports = {
     "import/no-absolute-path": "error",
     "import/no-cycle": "off",
     "import/no-duplicates": "error",
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off",
     "import/no-mutable-exports": "error",
     "import/no-named-as-default": "error",
     "import/no-named-as-default-member": "error",
