@@ -1,11 +1,12 @@
 module.exports = {
   "rules": {
+    "newline-per-chained-call": "off",
+    "no-alert": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-quotes": ["error", "prefer-double"],
-    "no-alert": "off",
-    "@typescript-eslint/no-unused-vars": "off",
     "react/button-has-type": "error",
     "react/default-props-match-prop-types": "error",
     "react/destructuring-assignment": "error",
