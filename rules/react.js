@@ -48,7 +48,7 @@ module.exports = {
     }],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-target-blank": "error",
-    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-no-useless-fragment": "off",
     "react/jsx-one-expression-per-line": ["error", {
       "allow": "literal"
     }],

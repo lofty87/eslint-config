@@ -9,7 +9,7 @@ module.exports = {
       "allowImplicit": true
     }],
     "array-element-newline": ["error", "consistent"],
-    "arrow-body-style": ["error", "as-needed"],
+    "arrow-body-style": "off",
     "arrow-parens": ["error", "always"],
     "arrow-spacing": "error",
     "block-scoped-var": "error",
@@ -87,7 +87,7 @@ module.exports = {
     "linebreak-style": ["error", "unix"],
     "max-classes-per-file": "off",
     "max-nested-callbacks": ["error", 5],
-    "multiline-ternary": ["error", "never"],
+    "multiline-ternary": ["error", "always-multiline"],
     "new-cap": ["error", {
       "newIsCap": true,
       "capIsNew": false,
@@ -95,7 +95,7 @@ module.exports = {
     }],
     "new-parens": "error",
     "newline-per-chained-call": ["error", {
-      "ignoreChainWithDepth": 2
+      "ignoreChainWithDepth": 1
     }],
     "no-class-assign": "error",
     "no-cond-assign": ["error", "always"],
@@ -141,6 +141,7 @@ module.exports = {
       "props": false
     }],
     "no-self-compare": "error",
+    "no-shadow": "off",
     "no-shadow-restricted-names": "error",
     "no-tabs": "error",
     "no-template-curly-in-string": "error",
