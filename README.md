@@ -41,7 +41,7 @@ npm install --save @lofty87/eslint-config
 #### 2. react
 
 ```bash
-npm install --save @lofty87/eslint-config eslint-plugin-jsx-a11y@^6.2.3 eslint-plugin-react@^7.19.0 eslint-plugin-react-hooks@^2.5.0
+npm install --save @lofty87/eslint-config eslint-plugin-jsx-a11y@6.4.1 eslint-plugin-react@7.21.5 eslint-plugin-react-hooks@2.5.1
 ```
 
 ## 4. Configuration
