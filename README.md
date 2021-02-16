@@ -1,10 +1,6 @@
 # @lofty87/eslint-config
 
-it can be applied to project using typescript, eslint and prettier in vscode. (also, react project)
-
-this eslint config is based on [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript).
-
-after pressing `F11`, you can be formatting it through save.
+vscode 에서 typescript, eslint, prettier 가 사용되는 프로젝트를 위해 작성한 eslint rules config (react rules config 포함) 입니다. 이 eslint rules config 는 [eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript) 를 기반으로 작성되었으며, 아래 과정을 다 진행할 경우 `F11` 을 통해 **prettier formatting** 과 `save` 를 통해 **eslint auto fix formatting** 을 적용할 수 있습니다. 이 formatting 을 활용하여 나 또는 팀의 code convention 을 정의하고 모두가 일관성있는 코드를 작성할 수 있습니다.
 
 ## 1. Prerequisite
 
@@ -22,7 +18,7 @@ after pressing `F11`, you can be formatting it through save.
 - eslint-config-prettier
 - eslint-plugin-import
 
-**2. react (include base)**
+**2. react (base 포함)**
 
 - eslint-plugin-jsx-a11y
 - eslint-plugin-react
@@ -30,15 +26,15 @@ after pressing `F11`, you can be formatting it through save.
 
 ## 3. Installation
 
-**Using npm :**
+Using npm :
 
-#### 1. base
+**1. base**
 
 ```bash
 npm install --save @lofty87/eslint-config
 ```
 
-#### 2. react
+**2. react**
 
 ```bash
 npm install --save @lofty87/eslint-config eslint-plugin-jsx-a11y@6.4.1 eslint-plugin-react@7.21.5 eslint-plugin-react-hooks@2.5.1
@@ -46,9 +42,9 @@ npm install --save @lofty87/eslint-config eslint-plugin-jsx-a11y@6.4.1 eslint-pl
 
 ## 4. Configuration
 
-#### 1. prettier
+**1. prettier formatting**
 
-create `.prettierrc` in project root and copy json below
+프로젝트 root 에 `.prettierrc` 파일을 생성하고 아래 내용을 추가합니다.
 
 ```json
 {
@@ -71,7 +67,7 @@ create `.prettierrc` in project root and copy json below
 }
 ```
 
-go to vscode user `settings.json` and include json below
+vscode 의 user `settings.json` 을 열어 아래 내용을 추가합니다.
 
 ```json
 {
@@ -93,15 +89,13 @@ go to vscode user `settings.json` and include json below
 }
 ```
 
-go to vscode *File-Preferences-Keyboard Shortcuts*,
+vscode 의 *File-Preferences-Keyboard Shortcuts* 로 가서 **Format Document** 값을 `F11` 로 변경합니다.
 
-change the **Format Document** value to `F11`.
+자, 이제 `F11` 을 통해 **prettier formatting** 을 할 수 있습니다.
 
-now, you can be prettier formatting it through `F11`
+**2. eslint formatting**
 
-#### 2. eslint
-
-create `.eslintrc.json` in project root and copy json below
+프로젝트 root 에 `.eslintrc.json` 파일을 생성하고 아래 내용을 추가합니다.
 
 ```json
 {
@@ -111,7 +105,7 @@ create `.eslintrc.json` in project root and copy json below
 }
 ```
 
-or
+또는 react 프로젝트 일 경우,
 
 ```json
 {
@@ -121,7 +115,7 @@ or
 }
 ```
 
-go to vscode user `settings.json` and include json below
+vscode 의 user `settings.json` 을 열어 아래 내용을 추가합니다.
 
 ```json
 {
@@ -132,7 +126,7 @@ go to vscode user `settings.json` and include json below
 }
 ```
 
-now, you can be eslint linting and can be formatting it by saving
+자, 이제 `save` 를 통해 **eslint auto fix formatting** 을 할 수 있습니다.
 
 ## 5. Namespaces
 
