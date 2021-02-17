@@ -212,7 +212,7 @@ module.exports = {
     'no-unreachable': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'off',
     'no-use-before-define': 'error',
     'no-useless-concat': 'error',
     'no-useless-escape': 'off',
@@ -388,7 +388,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/type-annotation-spacing': [
       'error',
