@@ -128,6 +128,18 @@ vscode 의 user `settings.json` 을 열어 아래 내용을 추가합니다.
 
 자, 이제 `save` 를 통해 **eslint auto fix formatting** 을 할 수 있습니다.
 
+**- package.json (optional) :**
+
+[expo](https://expo.io/) 프로젝트에 eslint rules config 를 적용할 때 처럼, 선택적으로 `package.json` 에 설정해야 할 경우도 있습니다.
+
+```json
+{
+  "eslintConfig": {
+    "extends": "@lofty87/eslint-config/react"
+  }
+}
+```
+
 ## 5. Namespaces
 
 - @lofty87/eslint-config(=base)
