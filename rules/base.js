@@ -52,6 +52,7 @@ module.exports = {
     'eol-last': ['error', 'always'],
     'for-direction': 'error',
     'func-call-spacing': ['error', 'never'],
+    'func-names': 'off',
     'func-style': [
       'error',
       'declaration',

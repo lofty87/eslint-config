@@ -1,7 +1,7 @@
 {
   "name": "@lofty87/eslint-config",
-  "version": "2.0.4",
-  "description": "vscode 에서 typescript, eslint, prettier 가 사용되는 프로젝트를 위해 작성한 eslint rules config (react rules config 포함) 입니다.",
+  "version": "2.0.5",
+  "description": "vscode 에서 typescript, eslint, prettier 가 사용되는 프로젝트를 위해 작성한 eslint rules config (react rules 포함) 입니다.",
   "author": {
     "name": "lofty87",
     "email": "lofty87@daum.net"
